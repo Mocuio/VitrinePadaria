@@ -1,0 +1,61 @@
+.navbar {
+      z-index: 1000; /* garante que fica sobre os outros elementos */
+    position: fixed;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    margin: 0;
+    background-color: #733b36;
+    box-shadow: 8px 10px 10px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    top: 0;
+}
+.pao-imagem{
+    height: 100%;
+    margin-left: auto;
+}
+
+.listInfo {
+  list-style: none;
+  display: flex;  
+  gap: 15%;     
+  margin: 0;             
+  padding: 0;      
+  margin-left:20% ;   
+}
+.momo-trust-display-regular {
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.listInfo a {
+  margin-left: auto;
+  color: White;  
+  text-decoration: none; 
+  font-size: 3vh;
+}
+.logo{
+    max-width: 85px;
+    justify-content: left;
+    display: flex;
+    margin-left: 10%;
+}
+
+@media screen and (max-width: 375px) {
+  .logo{
+    max-width: 45px;
+  }
+  .listInfo a{
+    font-size: 3.5vw;
+  }
+  .pao-imagem{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1369px) {
+     .pao-imagem{
+    display: none;
+  }
+}

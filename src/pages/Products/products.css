@@ -1,0 +1,23 @@
+.produtos-page{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: clamp(60px, 8vh, 80px);
+    min-height: 100vh; /* ou height: 100vh se quiser forçar */
+    box-sizing: border-box;
+}
+
+.cardSectionStyle {
+  width: 50%;
+  height: -webkit-fill-available;
+  display: flex;
+  flex-wrap: wrap;   
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  margin-top: 1%;
+}

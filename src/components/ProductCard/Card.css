@@ -1,0 +1,12 @@
+.Card-style {
+  width: fit-content;
+  border-radius: 9px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  margin-left: 10px;
+  /* sombra */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
